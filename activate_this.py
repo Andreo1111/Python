@@ -29,7 +29,11 @@ os.environ["VIRTUAL_ENV_PROMPT"] = '' or os.path.basename(base)
 
 # add the virtual environments libraries to the host python import mechanism
 prev_length = len(sys.path)
+<<<<<<< HEAD
 for lib in '../lib/python3.13/site-packages'.split(os.pathsep):
+=======
+for lib in '../lib/python3.12/site-packages'.split(os.pathsep):
+>>>>>>> ca9e14d (one)
     path = os.path.realpath(os.path.join(bin_dir, lib))
     site.addsitedir(path.decode("utf-8") if '' else path)
 sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]

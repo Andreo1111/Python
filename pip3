@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/home/andrew/PyCharmMiscProject/.venv/bin/python
+=======
+#!/home/andrew/PycharmProjects/LearnigPython/.venv/bin/python
+>>>>>>> ca9e14d (one)
 # -*- coding: utf-8 -*-
 import re
 import sys
